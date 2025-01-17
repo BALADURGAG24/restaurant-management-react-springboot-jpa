@@ -1,0 +1,25 @@
+.bg
+{
+    /* background-image:url("D:\fullstack-frontend-master\fullstack-frontend-master\public\bbb.jpeg"); */
+    background-size: cover;
+    background-attachment: fixed;
+    
+    padding-top: 1px;
+    height:850px;
+    
+}
+.py-4
+{
+    width: 700px;
+    height:850px;
+    margin-left: 10px;
+    margin-top: -20px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 1px;
+}
+.table
+{
+    background-color:white;
+}

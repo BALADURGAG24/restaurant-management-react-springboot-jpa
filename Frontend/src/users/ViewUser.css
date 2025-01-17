@@ -1,0 +1,54 @@
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .user-details {
+    display: grid;
+    grid-template-columns: 120px auto;
+    gap: 10px;
+  }
+  
+  .user-details .label {
+    font-weight: bold;
+  }
+  
+  .bg1 {
+    /* background-image:url("D:\fullstack-frontend-master\fullstack-frontend-master\public\as.avif"); */
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+    max-height:500px;
+    
+  }
+  
+  .border {
+    border: 2px solid #333;
+  }
+  
+  .rounded {
+    border-radius: 10px;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .mt-2 {
+    margin-top: 2rem;
+  }
+  
+  .shadow {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .col-md-6{
+    background-color:white;
+    
+    
+  }

@@ -1,0 +1,33 @@
+
+  .bgh1
+{
+  background-image:rgb(245, 241, 241);
+  /* background-image: url("C:\Users\balad\Downloads\background-cooking-tagliatelle-pasta-ingredients-260nw-1724611486.webp"); */
+  
+  background-size: cover;
+    background-attachment: fixed;
+    opacity:100px;
+    padding-top: 1px;
+    height: 800px; 
+}
+.input-fieldx {
+    width: 270px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  .button {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

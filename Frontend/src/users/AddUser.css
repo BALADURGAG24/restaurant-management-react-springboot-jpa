@@ -1,0 +1,20 @@
+.bg1
+{
+    background-color:white;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity:100px;
+    padding-top: 1px;
+    height:850px;
+}
+.container1
+{
+    margin-left: -200px;
+    margin-top:70px;
+    width:1000px;
+}
+
+.bttt
+{
+    background-color: bisque;
+}
