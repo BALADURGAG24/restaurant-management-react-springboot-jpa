@@ -1,7 +1,5 @@
 # restaurant-management-react-springboot-jpa
 
-# 🍽️ Restaurant Management System (React + Spring Boot + JPA + MySQL)
-
 A full-stack **Restaurant Management** application that allows administrators and staff to manage menu items, table reservations, orders, and customer information efficiently. Built using **React** for the frontend and **Spring Boot with JPA and MySQL** for the backend, the app is optimized for responsiveness and smooth data interaction.
 
 ---
