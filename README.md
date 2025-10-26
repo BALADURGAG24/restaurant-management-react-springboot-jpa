@@ -8,7 +8,7 @@ A full-stack **Restaurant Management** application that allows administrators an
 
 This system is designed for restaurant owners or staff to: 
 
-- Manage menu items (CRUD)
+- Manage menu items (CRUD) 
 - Handle table bookings and customer information   
 - Track and update order statuses
 - Maintain all data in a structured MySQL database
