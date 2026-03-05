@@ -47,22 +47,71 @@ This system is designed for restaurant owners or staff to:
 ---
 
 ## 📁 Project Structure
-
-```plaintext
-restaurant-management/
-├── backend/ (Spring Boot)
-│   ├── src/main/java/com/example/restaurant/
-│   │   ├── controller/
-│   │   ├── model/
-│   │   ├── repository/
-│   │   └── service/
-│   ├── application.properties
-│   └── RestaurantApplication.java
-├── frontend/ (React)
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── App.js
-│   ├── public/
-│   └── package.json
+```
+Directory structure:
+└── baladurgag24-restaurant-management-react-springboot-jpa/
+    ├── README.md
+    ├── LICENSE.txt
+    ├── Backend/
+    │   ├── mvnw
+    │   ├── mvnw.cmd
+    │   ├── pom.xml
+    │   └── src/
+    │       ├── main/
+    │       │   ├── java/
+    │       │   │   └── com/
+    │       │   │       └── example/
+    │       │   │           ├── Controller/
+    │       │   │           │   └── RestaurantController.java
+    │       │   │           ├── Demo/
+    │       │   │           │   └── RestaurantApplication.java
+    │       │   │           ├── Exception/
+    │       │   │           │   └── RestaurantNotFoundException.java
+    │       │   │           ├── Model/
+    │       │   │           │   └── Restaurant.java
+    │       │   │           ├── Repository/
+    │       │   │           │   └── RestaurantRepository.java
+    │       │   │           └── Service/
+    │       │   │               └── RestaurantService.java
+    │       │   └── resources/
+    │       │       └── application.properties
+    │       └── test/
+    │           └── java/
+    │               └── com/
+    │                   └── example/
+    │                       └── demo/
+    │                           └── RestaurantApplicationTests.java
+    └── Frontend/
+        ├── package.json
+        ├── public/
+        │   ├── ab.avif
+        │   ├── as.avif
+        │   ├── bb.avif
+        │   ├── index.html
+        │   ├── manifest.json
+        │   └── robots.txt
+        └── src/
+            ├── App.css
+            ├── App.js
+            ├── App.test.js
+            ├── index.css
+            ├── index.js
+            ├── reportWebVitals.js
+            ├── setupTests.js
+            ├── layout/
+            │   └── Navbar.js
+            ├── pages/
+            │   ├── Home.css
+            │   ├── Home.js
+            │   ├── login.css
+            │   ├── login.js
+            │   ├── Signup.css
+            │   └── Signup.js
+            └── users/
+                ├── AddUser.css
+                ├── AddUser.js
+                ├── EditUser.css
+                ├── EditUser.js
+                ├── ViewUser.css
+                └── ViewUser.js
+```
